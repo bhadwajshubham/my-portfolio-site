@@ -554,3 +554,26 @@ body {
     .header-content { justify-content: center; }
     .resume-button { display: none; }
 }
+/* Mobile Text Size Improvements */
+@media (max-width: 480px) {
+    .hero-intro-text {
+        font-size: 2.2rem;
+        line-height: 1.2;
+    }
+    
+    .hero-journey-text {
+        font-size: 1rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .project-title {
+        font-size: 1.5rem;
+    }
+    
+    .content-section {
+        padding: 80px 15px;
+    }
+}
